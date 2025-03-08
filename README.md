@@ -13,6 +13,8 @@ This project classifies images of cats and dogs using a deep learning model with
 ## 📁 Dataset
 The project uses a labeled dataset of cat and dog images. You can obtain a similar dataset from resources like [Kaggle](https://www.kaggle.com).
 
+🔑 **Note:** You must create an API key or token to access the dataset directly from Kaggle. Follow [these instructions](https://www.kaggle.com/docs/api) to set up your Kaggle credentials.
+
 ## 🚀 Model Architecture
 - **Base Model:** A pre-trained model (e.g., VGG16, ResNet, or MobileNet)
 - **Feature Extraction:** Freeze initial layers, train only the top layers
